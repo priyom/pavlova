@@ -11,6 +11,11 @@ var receivers = {
 	// quality...).
 	area: {
 		// All listed here are KiwiSDR instances
+		n: [ // North America, transmitted from Cuba
+			'http://64.136.200.36:8073/', // Kansas
+			'http://n5hyh.zapto.org:8073/', // Dallas, TX
+			'http://71.200.243.35:8073/', // Southwest Florida
+		],
 		p: [ // Pacific
 			'http://73.193.84.112:8073/', // Seattle, WA
 			'http://222.117.49.212:8073/', // South Korea
