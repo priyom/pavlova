@@ -11,6 +11,10 @@ var receivers = {
 	// quality...).
 	area: {
 		// All listed here are KiwiSDR instances
+		m: [ // Mediterranean sea / Middle East
+			'http://sdr.telcosol.gr:8073/', // Western Greece
+			'http://kiwisdr.briata.org:8073/', // Northern Italy
+		],
 		n: [ // North America, transmitted from Cuba
 			'http://64.136.200.36:8073/', // Kansas
 			'http://n5hyh.zapto.org:8073/', // Dallas, TX
