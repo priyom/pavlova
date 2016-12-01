@@ -17,6 +17,6 @@ Feedback
 
 The dispatcher rules can be fully customized. If you want to give us feedback about a particular KiwiSDR receiver which you think provides a great reception and deserves a better place, don't hesitate! You can also suggest support for a new area group if you have a use for it.
 
-We think the project could use a little, simple GUI to provide a better experience. If you want to help us, this is welcome!
+We think the project could use a little, simple HTML GUI to provide a smoother experience than raw javascript. If you want to help us with this, it's welcome!
 
 Contact us on the chat on [priyom.org](http://priyom.org/) or on twitter, [@priyom_org](https://twitter.com/priyom_org).
