@@ -51,6 +51,7 @@ RX.prototype = {
 // redirects to the best available one
 var Pavlova = function(url, receivers) {
 
+	// Parse parameters from URL or passed string, see README.md
 	var result = url.match(/(?:^|[\/\?#])([^\/\?#]+)(?:\/([^\/\?#]*))?(?:[\?#][^\/]*)?$/);
 	if (result == null)
 		return;
