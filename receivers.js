@@ -1,5 +1,5 @@
 // Receiver configuration for pavlova dispatcher
-// Comments copyright 2016 Pierre Ynard
+// Copyright 2016 Pierre Ynard
 // Licensed under GPLv3+
 
 var receivers = {
