@@ -42,7 +42,11 @@ RX.prototype = {
 		xhr.onreadystatechange = function(evt) {
 			if (xhr.readyState == 4) {
 				if (xhr.status == 200) {
-					var result = xhr.responseText.match(/\s+users=(\d+)\s+users_max=(\d+)\s+/);
+					var result = xhr.responseText.match(/\n\s*name=\s*([^\n]+?)\s*\n/);
+					if (result != null)
+						rx.dsc = result[1];
+
+					result = xhr.responseText.match(/\s+users=(\d+)\s+users_max=(\d+)\s+/);
 					rx.status = (result != null && Number(result[1]) < Number(result[2]));
 				} else
 					rx.status = false;
