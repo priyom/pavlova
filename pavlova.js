@@ -77,10 +77,10 @@ var Pavlova = function(url, receivers) {
 };
 
 Pavlova.prototype = {
-	// Redirect to the chosen receiver. null means no receiver could
+	// Redirect to the chosen receiver. null url means no receiver could
 	// be found. Monkey-patch this function to implement alternative
 	// output.
-	redirect: function(url) {
+	redirect: function(url, description) {
 		if (url)
 			window.location.href = url;
 		else
@@ -97,11 +97,11 @@ Pavlova.prototype = {
 
 			var url = rx.redirection();
 			if (url)
-				this.redirect(url);
+				this.redirect(url, rx.description());
 			return (! url);
 		}, this);
 		if (failed)
-			this.redirect(null);
+			this.redirect(null, null);
 	},
 
 	// Launch the probing and redirection process
