@@ -23,6 +23,7 @@ var receivers = {
 		],
 		p: [ // Pacific
 			'http://travelx.org:8073/', // Japan
+			'http://travelx.org:8074/', // Japan
 			'http://73.193.84.112:8073/', // Seattle, WA
 			'http://222.117.49.212:8073/', // South Korea
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
