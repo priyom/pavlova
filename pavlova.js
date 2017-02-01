@@ -10,6 +10,7 @@ var RX = function(url, freq, timeout) {
 	this.redirect = this.root + (freq ? '?f=' + freq : '');
 	this.timeout = timeout;
 	this.status = null;
+	this.dsc = 'Receiver at ' + url;
 };
 
 RX.prototype = {
@@ -21,6 +22,11 @@ RX.prototype = {
 	// The redirection URL if this RX is available, or null otherwise
 	redirection: function() {
 		return this.status ? this.redirect : null;
+	},
+
+	// A description string for this RX
+	description: function() {
+		return this.dsc;
 	},
 
 	// Probe RX for availability and call cb() when completed
