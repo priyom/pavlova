@@ -74,6 +74,7 @@ var Pavlova = function(url, receivers) {
 	this.rxs = receivers.area[area].map(function(rx) {
 		return new RX(rx, freq, timeout);
 	});
+	this.redirected = false;
 };
 
 Pavlova.prototype = {
@@ -90,18 +91,27 @@ Pavlova.prototype = {
 	// Called back after each receiver has completed probing, checks
 	// whether a redirection decision can be made
 	check_all: function() {
+		// Shortcut
+		if (this.redirected)
+			return;
+
 		var failed = this.rxs.every(function(rx) {
 			var pending = rx.pending();
 			if (pending)
 				return false;
 
 			var url = rx.redirection();
-			if (url)
+			if (url && ! this.redirected) {
+				this.redirected = true;
 				this.redirect(url, rx.description());
+			}
 			return (! url);
 		}, this);
-		if (failed)
+
+		if (failed && ! this.redirected) {
+			this.redirected = true;
 			this.redirect(null, null);
+		}
 	},
 
 	// Launch the probing and redirection process
