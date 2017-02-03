@@ -1,5 +1,5 @@
 // Pavlova dispatcher
-// Copyright 2016 Pierre Ynard
+// Copyright 2016-2017 Pierre Ynard
 // Licensed under GPLv3+
 
 // RX class: this is meant to probe and handle a KiwiSDR instance, but
@@ -120,9 +120,10 @@ Pavlova.handle = function(arg, redirect_cb) {
 
 	var dispatcher = new Pavlova(arg ? arg : window.location.href, receivers);
 	if (dispatcher.rxs == null)
-		return;
+		return false;
 	if (redirect_cb)
 		dispatcher.redirect = redirect_cb;
 	dispatcher.dispatch();
+	return true;
 };
 
