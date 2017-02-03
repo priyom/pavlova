@@ -3,8 +3,29 @@
 <script src="receivers.js"></script>
 <script src="pavlova.js"></script>
 <script>
-Pavlova.handle();
+// Pavlova dispatcher UI
+// Copyright 2017 Pierre Ynard
+// Licensed under GPLv3+
+
+var redirect = function(url, description) {
+	if (url) {
+		description = description ?
+			'&quot;' + description + '&quot; ' :
+			'';
+		document.body.innerHTML = 'Redirecting to ' + description + '&lt;' + url + '&gt;&nbsp;...';
+		window.location.href = url;
+	} else
+		document.body.innerHTML = '<span style="color:red;font-weight:bold">No receiver available! Sorry, try again later.</span>';
+}
+
+var dispatch = function() {
+	var res = Pavlova.handle(null, redirect);
+	document.body.innerHTML = res ?
+		'Probing available receivers...' :
+		'Welcome to the pavlova dispatcher! Please call with valid redirection parameters.';
+}
+
 </script>
 </head>
-<body />
+<body onload="dispatch()" />
 </html>
