@@ -19,6 +19,7 @@ var receivers = {
 			'http://64.136.200.36:8073/', // Kansas
 			'http://ka7u.no-ip.org:8073/', // Idaho
 			'http://n5hyh.zapto.org:8073/', // Dallas, TX
+			'http://w5uxh-kiwi.dyndns.org:8073/', // Las Cruces, NM
 			'http://71.200.243.35:8073/', // Southwest Florida
 		],
 		p: [ // Pacific
