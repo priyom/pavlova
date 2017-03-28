@@ -16,14 +16,14 @@ var redirect = function(url, description) {
 		window.location.href = url;
 	} else
 		document.body.innerHTML = '<span style="color:red;font-weight:bold">No receiver available! Sorry, try again later.</span>';
-}
+};
 
 var dispatch = function() {
 	var res = Pavlova.handle(null, redirect);
 	document.body.innerHTML = res ?
 		'Probing available receivers...' :
 		'Welcome to the pavlova dispatcher! Please call with valid redirection parameters.';
-}
+};
 
 </script>
 </head>
