@@ -8,12 +8,25 @@
 // Copyright 2017 Pierre Ynard
 // Licensed under GPLv3+
 
+var xml_escape = function(text) {
+	var xml_entities = {
+		'&': '&amp;',
+		'<': '&lt;',
+		'>': '&gt;',
+		'"': '&quot;',
+		"'": '&apos;',
+	};
+	return text.replace(/[&<>"']/g, function(c) {
+		return xml_entities[c];
+	});
+};
+
 var redirect = function(url, description) {
 	if (url) {
 		description = description ?
-			'&quot;' + description + '&quot; ' :
+			'&quot;' + xml_escape(description) + '&quot; ' :
 			'';
-		document.body.innerHTML = 'Redirecting to ' + description + '&lt;' + url + '&gt;&nbsp;...';
+		document.body.innerHTML = 'Redirecting to ' + description + '&lt;' + xml_escape(url) + '&gt;&nbsp;...';
 		window.location.href = url;
 	} else
 		document.body.innerHTML = '<span style="color:red;font-weight:bold">No receiver available! Sorry, try again later.</span>';
