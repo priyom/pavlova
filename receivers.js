@@ -27,7 +27,6 @@ var receivers = {
 			'http://travelx.org:8074/', // Japan
 			'http://73.193.84.112:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
-			'http://mediaexplorer.ddns.net:8073/', // Australia
 			'http://119.224.45.205:8073/', // New Zealand
 		],
 	},
