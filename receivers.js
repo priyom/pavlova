@@ -26,7 +26,7 @@ var receivers = {
 			'http://travelx.org:8073/', // Japan
 			'http://travelx.org:8074/', // Japan
 			'http://126.109.222.21:8073/', // Japan
-			'http://73.193.84.112:8073/', // Seattle, WA
+			'http://24.17.196.180:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
 			'http://119.224.45.205:8073/', // New Zealand
 			'http://72.130.191.200:8073/', // Hawaii
