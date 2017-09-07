@@ -29,7 +29,7 @@ var receivers = {
 			'http://24.17.196.180:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
 			'http://119.224.45.205:8073/', // New Zealand
-			'http://72.130.191.200:8073/', // Hawaii
+			'http://rjdevlin47.sytes.net:8073/', // Hawaii
 		],
 	},
 	timeout: 5000, // Timeout when probing receivers, in milliseconds
