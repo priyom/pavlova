@@ -23,6 +23,7 @@ var receivers = {
 			'http://71.200.243.35:8073/', // Southwest Florida
 		],
 		p: [ // Pacific
+			'http://kiwisdr.hirokinet.com:8074/', // Japan
 			'http://travelx.org:8073/', // Japan
 			'http://126.109.222.21:8073/', // Japan
 			'http://24.17.196.180:8073/', // Seattle, WA
