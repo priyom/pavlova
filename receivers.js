@@ -20,6 +20,7 @@ var receivers = {
 			'http://64.136.200.36:8073/', // Kansas
 			'http://ka7u.no-ip.org:8073/', // Idaho
 			'http://w5uxh-kiwi.dyndns.org:8073/', // New Mexico
+			'http://ranch-pt.no-ip.org:8073/', // Texas
 			'http://71.200.243.35:8073/', // Southwest Florida
 		],
 		p: [ // Pacific
