@@ -21,6 +21,7 @@ var receivers = {
 			'http://ka7u.no-ip.org:8073/', // Idaho
 			'http://w5uxh-kiwi.dyndns.org:8073/', // New Mexico
 			'http://ranch-pt.no-ip.org:8073/', // Texas
+			'http://ka7u.no-ip.org:8074/', // Idaho
 			'http://71.200.243.35:8073/', // Southwest Florida
 		],
 		p: [ // Pacific
