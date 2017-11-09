@@ -12,8 +12,8 @@ var receivers = {
 	area: {
 		// All listed here are KiwiSDR instances
 		m: [ // Mediterranean sea / Middle East
-			'http://sdr.telcosol.gr:8073/', // Western Greece
 			'http://sv1btl.no-ip.org:8073/', // Athens, Greece
+			'http://sdr.telcosol.gr:8073/', // Western Greece
 			'http://kiwisdr.briata.org:8073/', // Northern Italy
 		],
 		n: [ // North America, transmitted from Cuba
