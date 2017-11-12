@@ -29,7 +29,7 @@ var receivers = {
 			'http://222.7.151.84:8073/', // Japan
 			'http://103.2.34.7:8073/', // Japan
 			'http://travelx.org:8073/', // Japan
-			'http://24.17.200.235:8073/', // Seattle, WA
+			'http://wa6our.ddns.net:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
 			'http://119.224.45.205:8073/', // New Zealand
 			'http://rjdevlin47.sytes.net:8073/', // Hawaii
