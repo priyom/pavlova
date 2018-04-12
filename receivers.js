@@ -25,7 +25,7 @@ var receivers = {
 			'http://71.200.243.35:8073/', // Southwest Florida
 		],
 		p: [ // Pacific
-			'http://126.61.226.194:8073/', // Japan
+			'http://126.80.167.175:8073/', // Japan
 			'http://222.7.151.84:8073/', // Japan
 			'http://103.2.34.7:8073/', // Japan
 			'http://travelx.org:8073/', // Japan
