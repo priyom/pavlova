@@ -11,6 +11,13 @@ var receivers = {
 	// quality...).
 	area: {
 		// All listed here are KiwiSDR instances
+		a: [ // Asia, transmitted from Far East
+			'http://szsdr.ddns.net:8073/', // China
+			'http://nsk.swl.su:8073/', // Novosibirsk, Russia
+			'http://126.80.167.175:8073/', // Japan
+			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
+			'http://msk.swl.su:8073/', // Moscow, Russia
+		],
 		m: [ // Mediterranean sea / Middle East
 			'http://sv1btl.no-ip.org:8073/', // Athens, Greece
 			'http://sdr.telcosol.gr:8073/', // Western Greece
