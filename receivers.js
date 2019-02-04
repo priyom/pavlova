@@ -35,6 +35,7 @@ var receivers = {
 			'http://126.80.167.175:8073/', // Japan
 			'http://222.7.151.84:8073/', // Japan
 			'http://103.2.34.7:8073/', // Japan
+			'http://kiwisdr.robinett.us:8073/', // Hawaii
 			'http://wa6our.ddns.net:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
 			'http://119.224.45.205:8073/', // New Zealand
