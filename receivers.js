@@ -14,6 +14,7 @@ var receivers = {
 		a: [ // Asia, transmitted from Far East
 			'http://szsdr.ddns.net:8073/', // China
 			'http://nsk.swl.su:8073/', // Novosibirsk, Russia
+			'http://hl5ntr.ddns.net:8073/', // South Korea
 			'http://126.80.167.175:8073/', // Japan
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://msk.swl.su:8073/', // Moscow, Russia
