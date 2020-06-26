@@ -18,6 +18,7 @@ var receivers = {
 			'http://hl5ntr.ddns.net:8073/', // South Korea
 			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
+			'http://khv.proxy.kiwisdr.com:8073/', // Khabarovsk, Russia
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://msk.swl.su:8073/', // Moscow, Russia
 		],
