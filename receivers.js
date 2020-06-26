@@ -1,5 +1,5 @@
 // Receiver configuration for pavlova dispatcher
-// Copyright 2016-2017 Pierre Ynard
+// Copyright 2016-2020 Pierre Ynard
 // Licensed under GPLv3+
 
 var receivers = {
@@ -14,7 +14,7 @@ var receivers = {
 		a: [ // Asia, transmitted from Far East
 			'http://railgun.proxy.kiwisdr.com:8073/', // China
 			'http://szsdr.ddns.net:8073/', // China
-			'http://nsk.swl.su:8073/', // Novosibirsk, Russia
+			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
 			'http://hl5ntr.ddns.net:8073/', // South Korea
 			'http://126.80.167.175:8073/', // Japan
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
@@ -30,7 +30,7 @@ var receivers = {
 		n: [ // North America, transmitted from Cuba
 			'http://64.136.200.36:8073/', // Kansas
 			'http://ka7u.no-ip.org:8073/', // Idaho
-			'http://w5uxh-kiwi.dyndns.org:8073/', // New Mexico
+			'http://76.127.43.125:8073/', // New Mexico
 			'http://ranch-pt.no-ip.org:8073/', // Texas
 			'http://ka7u.no-ip.org:8074/', // Idaho
 			'http://71.200.243.35:8073/', // Southwest Florida
@@ -38,7 +38,7 @@ var receivers = {
 		p: [ // Pacific
 			'http://126.80.167.175:8073/', // Japan
 			'http://222.7.151.84:8073/', // Japan
-			'http://103.2.34.7:8073/', // Japan
+			'http://202.127.177.27:8073/', // Japan
 			'http://kiwisdr.robinett.us:8073/', // Hawaii
 			'http://wa6our.ddns.net:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
