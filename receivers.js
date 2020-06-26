@@ -16,6 +16,7 @@ var receivers = {
 			'http://szsdr.ddns.net:8073/', // China
 			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
 			'http://hl5ntr.ddns.net:8073/', // South Korea
+			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://msk.swl.su:8073/', // Moscow, Russia
@@ -36,6 +37,7 @@ var receivers = {
 			'http://71.200.243.35:8073/', // Southwest Florida
 		],
 		p: [ // Pacific
+			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
 			'http://222.7.151.84:8073/', // Azumino, Japan
 			'http://202.127.177.27:8073/', // Kanuma, Japan
