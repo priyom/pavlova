@@ -29,7 +29,7 @@ var redirect = function(url, description) {
 		document.body.innerHTML = 'Redirecting to ' + description + '&lt;' + xml_escape(url) + '&gt;&nbsp;...';
 		window.location.href = url;
 	} else
-		document.body.innerHTML = '<span style="color:red;font-weight:bold">No receiver available! Sorry, try again later.</span>';
+		document.body.innerHTML = '<span style="color:red;font-weight:bold">No receiver available! Sorry, try again later; or browse by yourself more receivers at <a href="http://rx.linkfanel.net/">rx.linkfanel.net</a></span>';
 };
 
 var dispatch = function() {
