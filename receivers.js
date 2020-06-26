@@ -16,7 +16,7 @@ var receivers = {
 			'http://szsdr.ddns.net:8073/', // China
 			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
 			'http://hl5ntr.ddns.net:8073/', // South Korea
-			'http://126.80.167.175:8073/', // Japan
+			'http://126.80.167.175:8073/', // Kobe, Japan
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://msk.swl.su:8073/', // Moscow, Russia
 		],
@@ -30,15 +30,15 @@ var receivers = {
 		n: [ // North America, transmitted from Cuba
 			'http://64.136.200.36:8073/', // Kansas
 			'http://ka7u.no-ip.org:8073/', // Idaho
-			'http://76.127.43.125:8073/', // New Mexico
+			'http://76.127.43.125:8073/', // Las Cruces, New Mexico
 			'http://ranch-pt.no-ip.org:8073/', // Texas
 			'http://ka7u.no-ip.org:8074/', // Idaho
 			'http://71.200.243.35:8073/', // Southwest Florida
 		],
 		p: [ // Pacific
-			'http://126.80.167.175:8073/', // Japan
-			'http://222.7.151.84:8073/', // Japan
-			'http://202.127.177.27:8073/', // Japan
+			'http://126.80.167.175:8073/', // Kobe, Japan
+			'http://222.7.151.84:8073/', // Azumino, Japan
+			'http://202.127.177.27:8073/', // Kanuma, Japan
 			'http://kiwisdr.robinett.us:8073/', // Hawaii
 			'http://wa6our.ddns.net:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
