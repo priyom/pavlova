@@ -1,5 +1,5 @@
 // Receiver configuration for pavlova dispatcher
-// Copyright 2016-2020 Pierre Ynard
+// Copyright 2016-2021 Pierre Ynard
 // Licensed under GPLv3+
 
 var receivers = {
@@ -32,7 +32,7 @@ var receivers = {
 			'http://kiwisdr.briata.org:8073/', // Northern Italy
 		],
 		n: [ // North America, transmitted from Cuba
-			'http://64.136.200.36:8073/', // Kansas
+			'http://lounix.net:8073/', // Kansas
 			'http://ka7u.no-ip.org:8073/', // Idaho
 			'http://76.127.43.125:8073/', // Las Cruces, New Mexico
 			'http://ranch-pt.no-ip.org:8073/', // Texas
