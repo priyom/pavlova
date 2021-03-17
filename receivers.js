@@ -15,6 +15,7 @@ var receivers = {
 			'http://railgun.proxy.kiwisdr.com:8073/', // China
 			'http://szsdr.ddns.net:8073/', // China
 			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
+			'http://nsk2.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
 			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://hl5ntr.ddns.net:8073/', // South Korea
 			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
@@ -27,6 +28,7 @@ var receivers = {
 			'http://sv1btl.no-ip.org:8073/', // Athens, Greece
 			'http://sdr.telcosol.gr:8073/', // Western Greece
 			'http://9k2ra-1.proxy.kiwisdr.com:8073/', // Kuwait
+			'http://9k2ra-2k.proxy.kiwisdr.com:8073/', // Kuwait
 			'http://midskiwi.ddns.net:8073/', // Qatar
 			'http://sibamanna.duckdns.org:8073/', // Sardinia, Italy
 			'http://kiwisdr.briata.org:8073/', // Northern Italy
