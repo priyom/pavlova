@@ -15,7 +15,7 @@ var receivers = {
 			'http://railgun.proxy.kiwisdr.com:8073/', // China
 			'http://szsdr.ddns.net:8073/', // China
 			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
-			'http://hikijun.iptime.org:8074/', // South Korea
+			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://hl5ntr.ddns.net:8073/', // South Korea
 			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
@@ -44,7 +44,7 @@ var receivers = {
 			'http://126.80.167.175:8073/', // Kobe, Japan
 			'http://jf0fumkiwi.ddns.net:8073/', // Azumino, Japan
 			'http://202.127.177.27:8073/', // Kanuma, Japan
-			'http://hikijun.iptime.org:8074/', // South Korea
+			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://69.27.184.58:8073/', // Half Moon Bay, CA
 			'http://kiwisdr.robinett.us:8073/', // Hawaii
 			'http://wa6our.ddns.net:8073/', // Seattle, WA
