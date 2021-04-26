@@ -1,5 +1,5 @@
 // Pavlova dispatcher
-// Copyright 2016-2017 Pierre Ynard
+// Copyright 2016-2017, 2021 Pierre Ynard
 // Licensed under GPLv3+
 
 // RX class: this is meant to probe and handle a KiwiSDR instance, but
@@ -46,7 +46,7 @@ RX.prototype = {
 					if (result != null)
 						rx.dsc = result[1];
 
-					if (/(^|\s+)status=(inactive|offline)\s*\n/.test(xhr.responseText))
+					if (/(^|\s+)status=(inactive|offline|private)\s*\n/.test(xhr.responseText))
 						rx.status = false;
 					else {
 						result = xhr.responseText.match(/\s+users=(\d+)\s+users_max=(\d+)\s+/);
