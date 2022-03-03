@@ -40,6 +40,8 @@ var receivers = {
 			'http://ranch-pt.no-ip.org:8073/', // Texas
 			'http://ka7u.no-ip.org:8074/', // Idaho
 			'http://71.200.243.35:8073/', // Southwest Florida
+			'http://km4rt.ddns.net:8073/', // Tipton County, Tennessee
+			'http://raleigh.twrmon.net:8073/', // North Raleigh, North Carolina
 		],
 		p: [ // Pacific
 			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
