@@ -18,7 +18,7 @@ var receivers = {
 			'https://nsk2.swl.su/', // Novosibirsk, Russia
 			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://hl5ntr.ddns.net:8073/', // South Korea
-			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
+			'http://jp7fso-kiwisdr.sytes.net:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
 			'https://khv.swl.su/', // Khabarovsk, Russia
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
@@ -44,7 +44,7 @@ var receivers = {
 			'http://raleigh.twrmon.net:8073/', // North Raleigh, North Carolina
 		],
 		p: [ // Pacific
-			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
+			'http://jp7fso-kiwisdr.sytes.net:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
 			'http://202.127.177.27:8073/', // Kanuma, Japan
 			'http://hl3amo.ddns.net:8074/', // South Korea
