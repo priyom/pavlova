@@ -1,5 +1,5 @@
 // Receiver configuration for pavlova dispatcher
-// Copyright 2016-2021 Pierre Ynard
+// Copyright 2016-2022 Pierre Ynard
 // Licensed under GPLv3+
 
 var receivers = {
@@ -14,13 +14,13 @@ var receivers = {
 		a: [ // Asia, transmitted from Far East
 			'http://railgun.proxy.kiwisdr.com:8073/', // China
 			'http://szsdr.ddns.net:8073/', // China
-			'http://nsk.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
-			'http://nsk2.proxy.kiwisdr.com:8073/', // Novosibirsk, Russia
+			'https://nsk.swl.su/', // Novosibirsk, Russia
+			'https://nsk2.swl.su/', // Novosibirsk, Russia
 			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://hl5ntr.ddns.net:8073/', // South Korea
 			'http://jp7fso.proxy.kiwisdr.com:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
-			'http://khv.proxy.kiwisdr.com:8073/', // Khabarovsk, Russia
+			'https://khv.swl.su/', // Khabarovsk, Russia
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://msk.swl.su:8073/', // Moscow, Russia
 		],
