@@ -46,7 +46,7 @@ var receivers = {
 		p: [ // Pacific
 			'http://jp7fso-kiwisdr.sytes.net:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
-			'http://202.127.177.27:8073/', // Kanuma, Japan
+			'http://123.255.237.170:8073/', // Kanuma, Japan
 			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://69.27.184.58:8073/', // Half Moon Bay, CA
 			'http://kiwisdr.robinett.us:8073/', // Hawaii
