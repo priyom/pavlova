@@ -48,8 +48,8 @@ var receivers = {
 			'http://126.80.167.175:8073/', // Kobe, Japan
 			'http://123.255.237.170:8073/', // Kanuma, Japan
 			'http://hl3amo.ddns.net:8074/', // South Korea
-			'http://69.27.184.58:8073/', // Half Moon Bay, CA
-			'http://kiwisdr.robinett.us:8073/', // Hawaii
+			'http://kfs.wsprdaemon.org:8073/', // Half Moon Bay, CA
+			'http://mauisdr.wsprdaemon.org:8073/', // Hawaii
 			'http://wa6our.ddns.net:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
 			'http://119.224.45.205:8073/', // New Zealand
