@@ -12,7 +12,7 @@ var receivers = {
 	area: {
 		// All listed here are KiwiSDR instances
 		a: [ // Asia, transmitted from Far East
-			'http://railgun.proxy.kiwisdr.com:8073/', // China
+			'https://sdr.wolfx.jp/', // Chongqing, China
 			'http://szsdr.ddns.net:8073/', // China
 			'https://nsk.swl.su/', // Novosibirsk, Russia
 			'https://nsk2.swl.su/', // Novosibirsk, Russia
