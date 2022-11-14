@@ -21,7 +21,7 @@ The URL format is pretty flexible, so <http://s.printf.cc/?p/6400am> works too o
 
 ![Pavlova dessert with kiwi slices](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Pavlova_dessert.JPG/320px-Pavlova_dessert.JPG "Pavlova dessert with kiwi slices")
 
-This dispatcher is named after the [pavlova dessert](https://en.wikipedia.org/wiki/Pavlova_%28food%29) and draws a bridge between the [KiwiSDR project](http://kiwisdr.com/KiwiSDR/index.html) and [priyom.org](http://priyom.org/).
+This dispatcher is named after the [pavlova dessert](https://en.wikipedia.org/wiki/Pavlova_%28food%29) and draws a bridge between the [KiwiSDR project](http://kiwisdr.com/KiwiSDR/index.html) and [priyom.org](https://priyom.org/).
 
 Hosting
 =======
@@ -35,4 +35,4 @@ If you want to give us feedback about a particular KiwiSDR receiver which you th
 
 We think the project could use a little, simple HTML GUI to provide a smoother experience than raw javascript. If you want to help us with this, it's welcome!
 
-Contact us on the chat on [priyom.org](http://priyom.org/) or on twitter, [@priyom_org](https://twitter.com/priyom_org).
+Contact us on the chat on [priyom.org](https://priyom.org/) or on twitter, [@priyom_org](https://twitter.com/priyom_org).
