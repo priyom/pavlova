@@ -28,6 +28,8 @@ Hosting
 
 Hosting your own instance of pavlova dispatcher is very easy: you just need to clone, link and/or copy the files, and serve them as static content over HTTP. You can also use your personal local version instead. You can fully customize your receivers list and dispatching rules, just edit the configuration file. Optionally, you can add extra matching rules to the configuration of your web server to support advanced URL formats.
 
+Note: you generally cannot host a pavlova instance over HTTPS. Most KiwiSDR receivers - or self-hosted web-based receivers for that matter - do not have a proper HTTPS setup and are available only over unsecured HTTP. If your pavlova instance is hosted over HTTPS, its dynamic probes to unsecured HTTP receivers will be blocked by web browsers for security reasons, rendering it inoperant. Instead, you must make sure that your web server is configured to serve your pavlova instance over plain HTTP. (Beyond this, distributing secure trust into home appliances remains a complicated issue, to which the industry has found no obvious solution.)
+
 Feedback
 ========
 
