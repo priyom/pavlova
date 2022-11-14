@@ -21,6 +21,7 @@ var receivers = {
 			'http://jp7fso-kiwisdr.sytes.net:8073/', // Fukushima, Japan
 			'http://126.80.167.175:8073/', // Kobe, Japan
 			'https://khv.swl.su/', // Khabarovsk, Russia
+			'http://sdrsapporo.ddns.net:8073/', // Sapporo, Japan
 			'http://hbsdr.proxy.kiwisdr.com:8073/', // China
 			'http://msk.swl.su:8073/', // Moscow, Russia
 		],
@@ -50,6 +51,7 @@ var receivers = {
 			'http://hl3amo.ddns.net:8074/', // South Korea
 			'http://kfs.wsprdaemon.org:8073/', // Half Moon Bay, CA
 			'http://mauisdr.wsprdaemon.org:8073/', // Hawaii
+			'http://sdrsapporo.ddns.net:8073/', // Sapporo, Japan
 			'http://wa6our.ddns.net:8073/', // Seattle, WA
 			'http://kiwisdr.ece.uvic.ca:8073/', // Victoria, BC
 			'http://119.224.45.205:8073/', // New Zealand
