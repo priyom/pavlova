@@ -30,6 +30,8 @@ var receivers = {
 			'http://sdr.telcosol.gr:8073/', // Western Greece
 			'http://9k2ra-1.proxy.kiwisdr.com:8073/', // Kuwait
 			'http://9k2ra-2k.proxy.kiwisdr.com:8073/', // Kuwait
+			'http://9k2ra-3.proxy.kiwisdr.com:8073/', // Kuwait
+			'http://9k2ra-4.proxy.kiwisdr.com:8073/', // Kuwait
 			'http://midskiwi.ddns.net:8073/', // Qatar
 			'http://sibamanna.duckdns.org:8073/', // Sardinia, Italy
 			'http://kiwisdr.briata.org:8073/', // Northern Italy
