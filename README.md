@@ -3,7 +3,7 @@ Pavlova dispatcher
 
 Given the multitude and variability of online radio receivers, the pavlova dispatcher finds an available receiver slot in the desired area, based on live probing, and redirects your web browser to it, for your listening pleasure.
 
-For now it is mainly aimed to support instances of the [KiwiSDR receiver network](http://sdr.hu/), given their main limitation of 4 user slots maximum. The live probing of available receivers is performed in client-side javascript in your web browser.
+For now it is mainly aimed to support instances of the [KiwiSDR receiver network](http://rx.kiwisdr.com/), given their main limitation of 4 user slots maximum. The live probing of available receivers is performed in client-side javascript in your web browser.
 
 Usage
 =====
